@@ -1,0 +1,67 @@
+// bower:scss
+// endbower
+
+html {
+  background: url(../images/tatranquilo-tafavoravel.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  font-family: -apple-system, system-ui, "Helvetica Neue", Arial, sans-serif;
+  -webkit-text-rendering: optimizeLegibility;
+  -moz-text-rendering: optimizeLegibility;
+  -ms-text-rendering: optimizeLegibility;
+  -o-text-rendering: optimizeLegibility;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+audio {
+    display: none;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.page-content {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+}
+
+.title {
+  display: inline-block;
+  width: 100%;
+  font-size: 10vw;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -0.5vw;
+}
+
+.by {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 14px;
+  color: #fff;
+}
+
+.by a {
+  color: #fff;
+  &:hover {
+    color: #fff;
+  }
+}
