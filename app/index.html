@@ -39,16 +39,15 @@
       <source src="audio/tatranquilo.mp3" type="audio/mpeg">
     </audio>
     <script>setTimeout(function(){window.location.href='http://tafavoravel.com'},1200);</script>
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73306610-1"></script>
     <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'UA-73306610-1');
+    </script>
     <!-- build:js scripts/vendor.js -->
     <!-- bower:js -->
     <!-- endbower -->
